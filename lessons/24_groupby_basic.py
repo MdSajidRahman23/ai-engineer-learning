@@ -6,3 +6,7 @@ df = pd.DataFrame({
 })
 
 print(df.groupby("city")["temp"].mean())
+
+
+print(df.groupby("city")["temp"].count())
+print(df.groupby("city")["temp"].max())
