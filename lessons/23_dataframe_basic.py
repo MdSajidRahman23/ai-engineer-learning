@@ -15,3 +15,7 @@ print(df[df["temp"] > 29])
 
 df["temp_f"] = df["temp"] * 9 / 5 + 32
 print(df)
+
+
+print(df.sort_values("temp"))
+print(df.sort_values("temp", ascending=False))
