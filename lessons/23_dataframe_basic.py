@@ -11,3 +11,7 @@ print(df["temp"].mean())
 print(df["temp"].max())
 
 print(df[df["temp"] > 29])
+
+
+df["temp_f"] = df["temp"] * 9 / 5 + 32
+print(df)
